@@ -16,8 +16,8 @@ Here are the data for the project:
 
 1. The following six files from the original data source are merged into one data set as follows:
 
-···train\subject_train.txt | train\x_train.txt | train\y_train.txt
-···test\subject_test.txt   | test\x_test.txt   | test\y_test.txt
+   train\subject_train.txt | train\x_train.txt | train\y_train.txt
+   test\subject_test.txt   | test\x_test.txt   | test\y_test.txt
 
 2. From the x component of the data set (i.e., x_train.txt and x_test.txt), only the columns that correspond to variables of the mean and standard deviation of the accelerometer and gyroscope measures were kept.
 
