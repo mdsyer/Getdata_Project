@@ -14,18 +14,18 @@ Here are the data for the project:
 
 ### Processing the Data Set
 
-The following six files from the original data source are merged into one data set as follows:
+1. The following six files from the original data source are merged into one data set as follows:
 
-train\subject_train.txt | train\x_train.txt | train\y_train.txt
-test\subject_test.txt   | test\x_test.txt   | test\y_test.txt
+···train\subject_train.txt | train\x_train.txt | train\y_train.txt
+···test\subject_test.txt   | test\x_test.txt   | test\y_test.txt
 
-From the x component of the data set (i.e., x_train.txt and x_test.txt), only the columns that correspond to variables of the mean and standard deviation of the accelerometer and gyroscope measures were kept.
+2. From the x component of the data set (i.e., x_train.txt and x_test.txt), only the columns that correspond to variables of the mean and standard deviation of the accelerometer and gyroscope measures were kept.
 
-The activity codes in the activity component of the data set (i.e., y_train.txt and y_test.txt) were replaced with descriptive activity lables from the activity_labels.txt file from the original data source.
+3. The activity codes in the activity component of the data set (i.e., y_train.txt and y_test.txt) were replaced with descriptive activity lables from the activity_labels.txt file from the original data source.
 
-The variable names in the new data set were replaced with more descriptive names from the features.txt file from the original data set combined with some additional processing (e.g., expanding t to time and f to freq and cleaning up the format of the variable names).
+4. The variable names in the new data set were replaced with more descriptive names from the features.txt file from the original data set combined with some additional processing (e.g., expanding t to time and f to freq and cleaning up the format of the variable names).
 
-A second data set was then created with the average of each accelerometer and gyroscope variable for each activity and each subject in the new data set.
+5. A second data set was then created with the average of each accelerometer and gyroscope variable for each activity and each subject in the new data set.
 
 ### Processed Data Set
 
