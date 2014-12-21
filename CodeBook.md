@@ -87,6 +87,6 @@ tidy_data_full.txt consists of the average (mean) and standard deviation (std) o
 * freq-BodyGyroJerkMag-std - standard deviation of the magnitude of the frequency domain signal of the angular velocity of the body jerk
 * activity_label - the name of the activity performed (one of: "laying", "sitting", "standing", "walking", "walking_downstairs" or "walking_upstairs")
 
-#### tidy_data_full.txt
+#### tidy_data_summary.txt
 
 tidy_data_summary.txt contains the average of each accelerometer and gyroscope variable for each activity and each subject in the tidy_data_full.txt table.
